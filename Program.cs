@@ -16,7 +16,7 @@ public sealed class MyExcelBook
 
 	private MyExcelBook()
 	{
-		_xssFWorkbook = new XSSFWorkbook();//これは単なる初期化という意味しかない。。？ ★★２
+		_xssFWorkbook = new XSSFWorkbook();//これは単なる初期化という意味しかない。。？ ★★３
 	}
 
 	public static MyExcelBook Create(string filepath)//生成する前にCALLできるものなのか。。。
